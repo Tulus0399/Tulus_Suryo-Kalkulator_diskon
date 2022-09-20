@@ -1,0 +1,4 @@
+STORE "Jumlah Voucher" AS INTEGER WITH VALUE
+STORE "Harga Satuan" AS INTEGER WITH VALUE
+STORE "Harga total" AS INTEGER WITH 0
+STORE "Jumlah Pembayaran" AS INTEGER WITH 0
