@@ -14,3 +14,4 @@ ELSE "Harga Total" LESS THAN "500 Ribu"
     DISPLAY "diskon 5%"
     STORE "Jumlah Pembayaran" WITH "Harga Total" TIMES "0,5"
     DISPLAY "Jumlah Pembayaran"
+END IF
