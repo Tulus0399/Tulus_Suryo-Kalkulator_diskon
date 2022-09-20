@@ -6,3 +6,6 @@ Kalkulator ini digunakan untuk menghitung besaran diskon yang didapatkan setelah
 - Flowchart.drawio
 - Pseudocode.txt
 - README.md
+
+Dikerjakan Oleh:
+- 'Tulus Suryo Widodo - FE2711948'
