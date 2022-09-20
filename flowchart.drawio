@@ -16,8 +16,38 @@
                 <mxCell id="5" value="Memilih kuota yang akan dibeli &lt;br&gt;dan menentukan jumlahnya" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
                     <mxGeometry x="217.5" y="100" width="205" height="60" as="geometry"/>
                 </mxCell>
+                <mxCell id="28" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="25" target="27">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
                 <mxCell id="25" value="&lt;span&gt;Perhitungan harga kuota satuan * jumlah yang akan dibeli&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
                     <mxGeometry x="240" y="210" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="27" target="29">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="27" target="31">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="&lt;span&gt;Harga total &amp;gt;= 500 Ribu&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="225" y="340" width="190" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="29" target="35">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="&lt;span&gt;Harga total &amp;lt;= 500 Rb&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="227.5" y="540" width="185" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="&lt;span&gt;Mendapat diskon 15%&lt;/span&gt;&lt;br&gt;&lt;span&gt;Total pembayaran = (Harga total * 15%)&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="377.5" width="140" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="430" y="390" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="500" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="&lt;span&gt;Mendapat diskon 5%&lt;/span&gt;&lt;br&gt;&lt;span&gt;Total pembayaran = (Harga total * 5%)&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="567.5" width="160" height="75" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
