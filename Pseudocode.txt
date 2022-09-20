@@ -1,0 +1,17 @@
+STORE "Jumlah Voucher" AS INTEGER WITH VALUE
+STORE "Harga Satuan" AS INTEGER WITH VALUE
+STORE "Harga total" AS INTEGER WITH 0
+STORE "Jumlah Pembayaran" AS INTEGER WITH 0
+
+STORE "Harga Total" WITH "Jumlah Voucher" TIMES "Harga Satuan"
+DISPLAY "Harga Total"
+
+IF "Harga Total" MORE THAN "500 Ribu"
+    DISPLAY "diskon 15%"
+    STORE "Jumlah Pembayaran" WITH "Harga Total" TIMES "1,5"
+    DISPLAY "Jumlah Pembayaran"
+ELSE "Harga Total" LESS THAN "500 Ribu"
+    DISPLAY "diskon 5%"
+    STORE "Jumlah Pembayaran" WITH "Harga Total" TIMES "0,5"
+    DISPLAY "Jumlah Pembayaran"
+END IF
